@@ -173,6 +173,9 @@ nav{
     border: 2px solid var(--second-color);
     transition: ease-out 0.4s;
 }
+.booking a i{
+    display: none;
+}
 
 /* NavBar Mobile */
 
@@ -251,6 +254,18 @@ nav{
         background-color: transparent;
         border: 2px solid var(--second-color);
         transition: ease-out 0.4s;
+    }
+
+    .booking a{
+        text-decoration: none;
+        position: relative;
+        right: 20px;
+        top: 25%;
+    }
+    .booking a i{
+        display: block;
+        color: var(--main-color);
+        font-size: 25px;
     }
 }
 
